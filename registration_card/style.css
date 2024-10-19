@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 250px;
+    background: rgb(223, 219, 243);
+}
+
+.container{
+    position: relative;
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow:  5px 5px 5px rgba(0, 0, 0, 0.1);
+}  
+
+.container header{
+    font-size: 30px;
+    color: #333;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.container .form{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.container .form .input-box{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.container .form .input-box label{
+    width: 35%;
+
+}
+
+.form .input-box{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.input-box label{
+    color: #333;
+    font-size:20px;
+
+}
+
+.form .row{
+    display: flex;
+    column-gap: 15px;
+}
+
+
+.form .row .input-box input{
+    position: relative;
+    height: 60px;
+    width: 80%;
+    outline: none;
+    font-size: 15px;
+    color: #707070;
+    margin-top: 2px;
+    margin-right: 20px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 0 15px;
+    align-items: center;
+}
+
+.form .gender-box{
+    margin-top: 20px;
+} 
+
+.gender-box h3{
+    color: #333;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 8px;
+
+}
+
+.gender-box h3 .gender{
+    display: flex;
+}
+
+.form :where(.gender-option, .gender){
+    display: flex;
+    column-gap: 50px;
+    font-size: 20px;
+}
+
+.form .gender{
+    column-gap: 5px;
+}
+
+.form button{
+    height: 50px;
+    width: 200px;
+    margin-top: 20px;
+    margin-right: 5px;
+    border:#fff;
+    border-radius: 6px;
+    color: #fff;
+    margin-left: 90px;
+}
+
+.form .button-1{
+    background-color: rgb(71, 24, 136);
+}
+
+.form .button-2{
+    background-color: rgb(200, 39, 30);
+}
+
+
+

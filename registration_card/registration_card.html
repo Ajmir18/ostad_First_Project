@@ -4,8 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>registration_card</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    
+  <section class="container">
+        <header>Registration Form</header>
+    <div action="#" class="form">
+        <div class="row">
+          <div class="input-box">
+            <label>Full Name</label>
+            <input type="text" placeholder="Enter your name" required/>
+          </div> 
+            <div class="input-box">
+              <label>Username</label>
+              <input type="text" placeholder="Enter your username"/>
+            </div>          
+ 
+        </div> 
+        
+        <div class="row">
+          <div class="input-box">
+            <label>Email </label>
+            <input type="email" placeholder="Enter your email" required/>
+          </div> 
+                
+            <div class="input-box">
+              <label>Phone Number</label>
+              <input type="number" placeholder="Enter your number" required/>
+            </div> 
+        </div>
+        
+        <div class="row">
+            <div class="input-box">
+              <label>Password</label>
+              <input type="password" placeholder="Enter your password" required/>
+            </div> 
+           
+            <div class="input-box">
+              <label>Confirm Password</label>
+              <input type="password" placeholder="Confirm your password"/>
+            </div> 
+        </div>
+        
+        <div class="gender-box">
+          <div class="gender-option">
+            <h3>Gender</h3> 
+            <div class="grnder">
+                <input type="radio" id="check" name="gender"/>
+                <label for="check">Male</label>
+            </div>
+
+            <div class="grnder">
+                <input type="radio" id="check" name="gender"/>
+                <label for="check">Female</label>
+            </div>
+
+            <div class="grnder">
+                <input type="radio" id="check" name="gender"/>
+                <label for="check">Other</label>
+            </div>
+          </div>
+        </div>
+       
+          <button class="button-1">Submit</button>
+          <button class="button-2">Cancel</button>
+       
+    </div>
+  </section>
     
 </body>
 </html>
